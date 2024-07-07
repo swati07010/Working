@@ -1,0 +1,33 @@
+.Formpage{
+  display: grid;
+  align-items: center;
+  margin: 50px;
+  margin-left: 150px;
+  gap: 20px;
+}
+.Formpage-name,.Formpage-course{
+    display: grid;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Formpage-input{
+    width: 1000px;
+}
+.Formpage-select{
+    width: 1000px;
+    font-size: 15px;
+    font-weight: 800;
+}
+.Formpage-button{
+display: flex;
+  gap:10px
+}
+.Formpage-button-submit{
+    color:white;
+    background: blue;
+}
+.Formpage-button-generatePDF{
+    color: white;
+    background: green;
+}
